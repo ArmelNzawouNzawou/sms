@@ -8,7 +8,7 @@ import java.util.Objects;
 public class Course {
 
 
-/*** do not modify this part /
+
 
     private String courseId, courseName;
 
@@ -38,9 +38,7 @@ public class Course {
             return this;
         }
 
-        /******
-         * DO NOT CHANGE ANYTHING
-         */
+       
 
 
         public Builder courseName(String courseName) {
