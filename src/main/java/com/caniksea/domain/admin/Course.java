@@ -7,6 +7,9 @@ import java.util.Objects;
 @EntityScan
 public class Course {
 
+
+/*** do not modify this part /
+
     private String courseId, courseName;
 
     private Course(){}
