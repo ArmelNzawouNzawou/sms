@@ -16,6 +16,8 @@ public class Course {
         this.courseName = builder.courseName;
     }
 
+
+
     public String getCourseId() {
         return courseId;
     }
@@ -32,6 +34,11 @@ public class Course {
             this.courseId = courseId;
             return this;
         }
+
+        /******
+         * DO NOT CHANGE ANYTHING
+         */
+
 
         public Builder courseName(String courseName) {
             this.courseName = courseName;
